@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "simple_azure_service", "simple-azure-service\simple_azure_service.sfproj", "{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleActor", "simpleActor\simpleActor.csproj", "{029A6473-6006-4174-B29F-5361EEE7DD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpleActor.Interfaces", "simpleActor.Interfaces\simpleActor.Interfaces.csproj", "{F3F5340F-82A9-4EAB-BCC7-CACC8944C4C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple_azure_service.Client", "simple_azure_service.Client\simple_azure_service.Client.csproj", "{E4BA0E7C-D94F-4BF3-BF8D-E4E1B9B3B7A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Debug|x64.ActiveCfg = Debug|x64
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Debug|x64.Build.0 = Debug|x64
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Debug|x64.Deploy.0 = Debug|x64
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Release|x64.ActiveCfg = Release|x64
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Release|x64.Build.0 = Release|x64
+		{9D30AD6E-5197-4B51-BC21-B944A68A1B2F}.Release|x64.Deploy.0 = Release|x64
+		{029A6473-6006-4174-B29F-5361EEE7DD72}.Debug|x64.ActiveCfg = Debug|x64
+		{029A6473-6006-4174-B29F-5361EEE7DD72}.Debug|x64.Build.0 = Debug|x64
+		{029A6473-6006-4174-B29F-5361EEE7DD72}.Release|x64.ActiveCfg = Release|x64
+		{029A6473-6006-4174-B29F-5361EEE7DD72}.Release|x64.Build.0 = Release|x64
+		{F3F5340F-82A9-4EAB-BCC7-CACC8944C4C1}.Debug|x64.ActiveCfg = Debug|x64
+		{F3F5340F-82A9-4EAB-BCC7-CACC8944C4C1}.Debug|x64.Build.0 = Debug|x64
+		{F3F5340F-82A9-4EAB-BCC7-CACC8944C4C1}.Release|x64.ActiveCfg = Release|x64
+		{F3F5340F-82A9-4EAB-BCC7-CACC8944C4C1}.Release|x64.Build.0 = Release|x64
+		{E4BA0E7C-D94F-4BF3-BF8D-E4E1B9B3B7A6}.Debug|x64.ActiveCfg = Debug|x64
+		{E4BA0E7C-D94F-4BF3-BF8D-E4E1B9B3B7A6}.Debug|x64.Build.0 = Debug|x64
+		{E4BA0E7C-D94F-4BF3-BF8D-E4E1B9B3B7A6}.Release|x64.ActiveCfg = Release|x64
+		{E4BA0E7C-D94F-4BF3-BF8D-E4E1B9B3B7A6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
